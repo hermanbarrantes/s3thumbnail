@@ -24,11 +24,13 @@ dependencies {
     implementation("javax.annotation:javax.annotation-api")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
-
     implementation("io.micronaut.aws:micronaut-function-aws")
-
+    implementation("net.coobird:thumbnailator:0.4.14")
     testImplementation("io.micronaut:micronaut-http-client")
 
+    implementation("com.amazonaws:aws-lambda-java-events:3.9.0")
+    implementation("io.micronaut.aws:micronaut-aws-sdk-v2")
+    implementation("software.amazon.awssdk:s3")
 }
 
 

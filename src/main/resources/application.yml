@@ -1,3 +1,6 @@
 micronaut:
   application:
     name: s3thumbnail
+thumbnail:
+  width: 256
+  height: 256

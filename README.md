@@ -10,7 +10,7 @@
 
 [AWS Lambda Handler](https://docs.aws.amazon.com/lambda/latest/dg/java-handler.html)
 
-Handler: com.gbsys.BookRequestHandler
+Handler: `com.gbsys.Handler`
 
 ## Feature aws-lambda documentation
 
